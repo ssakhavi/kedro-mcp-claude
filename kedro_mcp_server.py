@@ -24,6 +24,8 @@ from mcp.types import (
     Tool,
     TextContent,
     EmbeddedResource,
+    ServerCapabilities,
+    ToolsCapability,
 )
 
 # Configure logging
@@ -418,9 +420,8 @@ async def main():
             InitializationOptions(
                 server_name="kedro-mcp",
                 server_version="0.1.0",
-                capabilities=server.get_capabilities(
-                    notification_options=None,
-                    experimental_capabilities=None
+                capabilities=ServerCapabilities(
+                    tools=ToolsCapability(listChanged=None)
                 )
             )
         )
