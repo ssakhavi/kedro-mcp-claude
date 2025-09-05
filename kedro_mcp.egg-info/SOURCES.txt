@@ -1,0 +1,9 @@
+README.md
+kedro_mcp_server.py
+pyproject.toml
+kedro_mcp.egg-info/PKG-INFO
+kedro_mcp.egg-info/SOURCES.txt
+kedro_mcp.egg-info/dependency_links.txt
+kedro_mcp.egg-info/entry_points.txt
+kedro_mcp.egg-info/requires.txt
+kedro_mcp.egg-info/top_level.txt

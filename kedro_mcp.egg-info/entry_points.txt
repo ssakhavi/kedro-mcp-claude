@@ -1,0 +1,2 @@
+[console_scripts]
+kedro-mcp-server = kedro_mcp_server:main
